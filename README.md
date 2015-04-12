@@ -30,7 +30,7 @@ When you're done, your setup should look similar to the following:
 
 		...
 
-		<span vm-bootstrap-datetime-input data-label-picker="Datetime" ng-model="date"></span>
+		<vm-bootstrap-datetime-input data-label-picker="Datetime" ng-model="date"></vm-bootstrap-datetime-input>
 		
 		<script>
 			var testApp = angular.module('TestApp', ['vm-bootstrap-datetimepicker']);

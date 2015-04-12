@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<link href="vm-bootstrap-datetimepicker.css" media="all" rel="stylesheet" type="text/css">
+		<script src="http://momentjs.com/downloads/moment-with-locales.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="vm-bootstrap-datetimepicker.js"></script>
+		<script src="app.js"></script>
+	</head>
+
+	<body ng-app="TestApp" ng-controller="AppController">
+
+		<span vm-bootstrap-datetime-input data-label-picker="Datetime" ng-model="date"></span>
+
+	</body>
+</html>

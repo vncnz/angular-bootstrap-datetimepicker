@@ -1,6 +1,7 @@
 
 <div class="input-group vm-input-group" class="vmBootstrapDatetimepicker">
-  <span class="input-group-addon">{{label}}</span>
+  <span class="input-group-addon" ng-show="label">{{label}}</span>
   <input type="text" class="form-control" ng-model="bdate" ng-class="validityClasses">
-  <span ng-show="error" class="input-group-addon">[error on {{error}}]</span>
+  <span ng-if="error" class="input-group-addon errorLabel">{{error}}?</span>
+  
 </div>

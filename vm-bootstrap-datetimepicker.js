@@ -13,6 +13,8 @@ angular.module('vm-bootstrap-datetimepicker', []).directive('vmBootstrapDatetime
     },
     controller: ['$scope', function($scope) {
 
+      $scope.label = $scope.label || " ";
+
 
       var invalidIndexes = ['years', 'months', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'];
 

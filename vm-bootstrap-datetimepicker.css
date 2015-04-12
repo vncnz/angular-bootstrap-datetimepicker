@@ -1,9 +1,14 @@
-.vm-input-group {
-  margin: 5rem;
-}
+
 .ng-dirty.ng-valid {
   border-color: lightgreen;
  }
 .ng-dirty.ng-invalid {
   border-color: red;
+ }
+
+.errorLabel {
+ 	background: none;
+ 	color: red;
+ 	/*position: absolute;
+ 	right: 0;*/
  }
